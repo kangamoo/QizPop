@@ -1,0 +1,33 @@
+
+
+/**************************************************/
+/*                 QizPop.com 			  */
+/*	           by Kangamoo			  */
+/*						  */
+/* A very basic quiz app that needs a lot of work */
+/*						  */
+/**************************************************/
+
+In no specific order
+	Validation - create/add it
+	Angular JS front end - create it
+	PHP return REST results
+	Look and Feel (of any kind). Remove old li/formatting, and use Bootstrap basic theme
+	Interface 
+		- Update the way admin works to simplify it for users
+		- In the Quiz, add a modal window to handle adding questions.
+		- When adding a new quiz once the quiz has been saved, they can add questions on the same screen (via the modal)
+		- In the modal in quiz, two columns, drag and drop from the question pool to the quiz
+		
+		- In Questions, add category, and correct answer selection for scoring
+		- In results, store question and answer text, and correct/incorrect 
+ 
+	Homepage - Write up a brief decription, link to github if anyone wants it. 
+	mod_rewrite the urls to make them purdy.
+
+	More housekeeping
+		-Create Readme
+		-Create Install instructions
+		-Create sql export, with decent readable examples
+		-Consider adding admin authentication, or .htaccess file for use
+		-License: add one!
