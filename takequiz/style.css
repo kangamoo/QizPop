@@ -1,0 +1,51 @@
+body {
+	font: 12px/21px Georgia, Times, "Times New Roman", serif;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+h1, h2, label {font-family:Verdana, Geneva, sans-serif;}
+
+form {
+	width:750px;
+}
+
+input[type="text"] {
+    height:20px;
+    width:350px;
+    padding:2px 2px;
+}
+input[type="email"] {
+    height:20px;
+    width:350px;
+    padding:2px 2px;
+}
+button.submit  {margin-left:156px;}
+ul {
+    width:750px;
+    list-style-type:none;
+    list-style-position:outside;
+    border-bottom:1px solid #eee;
+    margin-bottom:10px;
+}
+li{
+    padding:2px;
+    position:relative;
+}
+li:last-child {
+	margin-bottom:20px;
+}
+h2 {
+    display: inline;
+}
+label {
+    width:300px;
+    margin-top: 1px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    display:inline-block;
+    padding:1px;
+}
+.studentData label {
+    width:50px;
+
+}
