@@ -20,6 +20,7 @@ $db = new medoo();
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<script src="http://code.angularjs.org/angular-1.0.0.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
@@ -32,7 +33,7 @@ function toggleDiv(divId) {
 </script>
 
 </head>
-<body>
+<body ng-app="QizPop">
 <nav class="navbar navbar-inverse">
 	<div class="container">
 		<div class="navbar-header">
@@ -51,20 +52,6 @@ function toggleDiv(divId) {
               <li><a href="/results/">Results</a></li>
               <li><a href="/quiz/index.php?quizid=0">Add Quiz</a></li>
               <li><a href="/questions/index.php?quizquestionid=0">Add Question</a></li>
-<? /* comment out the drop down until/unless we need it
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-*/?>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
