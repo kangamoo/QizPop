@@ -1,16 +1,12 @@
 <?
 include('menu.php');
-
 /* Main page. Shows list of quizzes in reverse chronological created order */
 ?>
 
-<style>
-	.toprow {
-		font-weight: bold;
-	}
-</style>
 
 <h3>Quizzes</h3>
+
+
 <a href="/quiz/index.php?quizid=0">Add Quiz</a><br /><br />
 
 <table id="quizlist">
